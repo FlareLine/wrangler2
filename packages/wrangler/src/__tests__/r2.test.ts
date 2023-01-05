@@ -39,10 +39,11 @@ describe("r2", () => {
 			  wrangler r2 bucket delete <name>  Delete an R2 bucket
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 		});
 
@@ -107,10 +108,11 @@ describe("r2", () => {
 			  name  The name of the new bucket  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 				expect(std.err).toMatchInlineSnapshot(`
 				            "[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNot enough non-option arguments: got 0, need at least 1[0m
@@ -135,10 +137,11 @@ describe("r2", () => {
 			  name  The name of the new bucket  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 				expect(std.err).toMatchInlineSnapshot(`
 				            "[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnknown arguments: def, ghi[0m
@@ -192,10 +195,11 @@ describe("r2", () => {
 			  name  The name of the bucket to delete  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 				expect(std.err).toMatchInlineSnapshot(`
 				            "[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNot enough non-option arguments: got 0, need at least 1[0m
@@ -220,10 +224,11 @@ describe("r2", () => {
 			  name  The name of the bucket to delete  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 				expect(std.err).toMatchInlineSnapshot(`
 				            "[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnknown arguments: def, ghi[0m

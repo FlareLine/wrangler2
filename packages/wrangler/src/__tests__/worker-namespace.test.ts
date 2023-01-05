@@ -35,10 +35,11 @@ describe("dispatch-namespace", () => {
 		  wrangler dispatch-namespace rename <old-name> <new-name>  Rename a dispatch namespace
 
 		Flags:
-		  -c, --config   Path to .toml configuration file  [string]
-		  -e, --env      Environment to use for operations and .env files  [string]
-		  -h, --help     Show help  [boolean]
-		  -v, --version  Show version number  [boolean]",
+		  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+		  -c, --config       Path to .toml configuration file  [string]
+		  -e, --env          Environment to use for operations and .env files  [string]
+		  -h, --help         Show help  [boolean]
+		  -v, --version      Show version number  [boolean]",
 		  "warn": "",
 		}
 	`);
@@ -87,10 +88,11 @@ describe("dispatch-namespace", () => {
 			  name  Name of the dispatch namespace  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 		});
 
@@ -136,10 +138,11 @@ describe("dispatch-namespace", () => {
 			  name  Name of the dispatch namespace  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 		});
 
@@ -195,10 +198,11 @@ describe("dispatch-namespace", () => {
 			  name  Name of the dispatch namespace  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 		});
 
@@ -305,10 +309,11 @@ describe("dispatch-namespace", () => {
 			  new-name  New name of the dispatch namespace  [string] [required]
 
 			Flags:
-			  -c, --config   Path to .toml configuration file  [string]
-			  -e, --env      Environment to use for operations and .env files  [string]
-			  -h, --help     Show help  [boolean]
-			  -v, --version  Show version number  [boolean]"
+			  -j, --json-config  [33mExperimental[39m Support wrangler.json  [boolean]
+			  -c, --config       Path to .toml configuration file  [string]
+			  -e, --env          Environment to use for operations and .env files  [string]
+			  -h, --help         Show help  [boolean]
+			  -v, --version      Show version number  [boolean]"
 		`);
 		});
 
