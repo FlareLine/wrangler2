@@ -57,6 +57,7 @@ export function buildWorker({
 			betaD1Shims: (betaD1Shims || []).map(
 				(binding) => `${D1_BETA_PREFIX}${binding}`
 			),
+			doBindings: [], // Pages functions don't support internal Durable Objects
 			plugins: [
 				{
 					name: "wrangler notifier and monitor",
